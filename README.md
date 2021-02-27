@@ -7,10 +7,12 @@ To get code running on localhost:
 2. Run rmiregistry in background:
 rmiregistry &
 
-3. Run:
-java StateMachineTestDrive localhost true false true
-results in florida
-false true false results in texas
+3. Run: java StateMachineTestDrive localhost true false true
 
-4. In a different window, run:
+4. results in florida
+
+5. false true false results in texas
+
+6. In a different window, run:
+
 java StateMonitorTestDrive localhost
