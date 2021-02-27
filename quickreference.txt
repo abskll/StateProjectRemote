@@ -1,0 +1,4 @@
+cd C:\Users\abulv\OneDrive\Documents\GItHub\StateProjectRemote\bin
+rmiregistry &
+java StateMachineTestDrive localhost true false true
+java StateMonitorTestDrive localhost
